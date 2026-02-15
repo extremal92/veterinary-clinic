@@ -1,0 +1,218 @@
+{
+  "common": {
+    "callNow": "Sună acum",
+    "bookVisit": "Programează o vizită",
+    "learnMore": "Află mai multe"
+  },
+  "languages": {
+    "ro": "Română",
+    "ru": "Русский",
+    "en": "English",
+    "ua": "Українська"
+  },
+  "header": {
+    "logoAlt": "Logo clinica veterinară Nags-Vet",
+    "navServices": "Servicii",
+    "navAbout": "Despre noi",
+    "navDoctors": "Medici",
+    "navPricing": "Listă prețuri",
+    "navTestimonials": "Recenzii",
+    "navContact": "Contact",
+    "callNow": "Sună acum",
+    "languageSwitcherAria": "Schimbă limba site-ului",
+    "navigationAria": "Navigare principală"
+  },
+  "hero": {
+    "title": "Grijă modernă pentru animalele tale de companie",
+    "subtitle": "Clinică veterinară complet echipată în Chișinău, cu echipă dedicată și tehnologie modernă pentru un diagnostic rapid și tratament eficient.",
+    "badgeLabel": "Îngrijire veterinară profesională",
+    "clinicLabel": "Clinica veterinară {name}",
+    "servicesCount": "{count} servicii",
+    "primaryCta": "Programează o consultație",
+    "secondaryCta": "Sună clinica",
+    "ratingLabel": "din {max} stele",
+    "ratingBasedOn": "bazat pe {count} recenzii",
+    "ratingFacebook": "{count} recenzii pe Facebook",
+    "workingHoursTitle": "Program astăzi",
+    "workingHoursClosed": "Închis astăzi",
+    "workingHoursSeeAll": "Vezi tot programul",
+    "imageAlt": "Medic veterinar care examinează un câine într-o clinică modernă"
+  },
+  "services": {
+    "eyebrow": "Îngrijire profesională",
+    "title": "Serviciile noastre",
+    "subtitle": "Îngrijire completă pentru animalele tale de companie, de la prevenție la intervenții complexe.",
+    "items": {
+      "dentistry": {
+        "title": "Stomatologie",
+        "description": "Curățare profesională a dinților, extracții și tratament pentru sănătatea cavității bucale."
+      },
+      "surgery": {
+        "title": "Chirurgie",
+        "description": "Intervenții chirurgicale cu echipament modern și experiență vastă."
+      },
+      "endoscopy": {
+        "title": "Endoscopie",
+        "description": "Diagnostic și tratament minim invaziv pentru afecțiuni interne complexe."
+      },
+      "therapy": {
+        "title": "Terapie",
+        "description": "Tratament medicamentos individual și monitorizare atentă a progresului."
+      },
+      "dermatology": {
+        "title": "Dermatologie",
+        "description": "Diagnostic și tratament pentru afecțiuni cutanate, alergii și probleme dermatologice."
+      },
+      "parasitology": {
+        "title": "Parazitologie",
+        "description": "Prevenție și tratament al paraziților interni și externi."
+      },
+      "microchipping": {
+        "title": "Microcipare",
+        "description": "Identificare permanentă și sigură a animalului de companie."
+      },
+      "vetPassports": {
+        "title": "Pase veterinar",
+        "description": "Eliberarea documentelor pentru călătorii internaționale cu animale de companie."
+      },
+      "laboratory": {
+        "title": "Laborator",
+        "description": "Analize de sânge, urină și alte teste de laborator pentru diagnostic precis și rapid."
+      },
+      "inpatient": {
+        "title": "Staționar",
+        "description": "Îngrijire și monitorizare non-stop pentru pacienți care necesită tratament intensiv."
+      }
+    },
+    "image1Alt": "Servicii veterinare",
+    "image2Alt": "Îngrijire animale de companie"
+  },
+  "about": {
+    "eyebrow": "Despre noi",
+    "title": "Despre Nags-Vet",
+    "subtitle": "Peste 10 ani de experiență în medicina veterinară",
+    "body": "La Nags-Vet îmbinăm grija autentică pentru animale cu protocoale medicale moderne. Echipa noastră de medici veterinari acoperă toate specializările esențiale pentru a oferi un diagnostic corect și un tratament eficient, într-un mediu calm și prietenos pentru animale.",
+    "mission": {
+      "title": "Misiunea noastră",
+      "description": "Să oferim fiecărui animal o îngrijire medicală sigură, empatică și accesibilă, astfel încât stăpânii să se simtă liniștiți la fiecare vizită."
+    },
+    "values": {
+      "title": "Valorile noastre",
+      "description": "Respect, transparență și comunicare clară cu proprietarii, alături de perfecționare continuă a echipei medicale."
+    },
+    "clientsBadge": "{count}+ clienți mulțumiți",
+    "clientsBadgeLabel": "Clienți mulțumiți",
+    "imageAlt": "Echipă de medici veterinari care zâmbesc în recepția clinicii"
+  },
+  "doctors": {
+    "eyebrow": "Echipa noastră",
+    "title": "Medicii noștri veterinari",
+    "subtitle": "Profesioniști experimentați cu dragoste pentru animale.",
+    "items": [
+      {
+        "name": "Alexandru Covalenco",
+        "role": "Medic veterinar șef, chirurg",
+        "description": "Peste 12 ani de practică. Specializare: chirurgie, endoscopie. Își îmbunătățește constant calificarea la cursuri internaționale."
+      },
+      {
+        "name": "Maria Popova",
+        "role": "Medic veterinar terapeut, dermatolog",
+        "description": "Diagnostic și tratament pentru boli interne, afecțiuni cutanate și alergice. Abordare individuală pentru fiecare animal."
+      },
+      {
+        "name": "Dmitri Rusu",
+        "role": "Medic veterinar: stomatologie, ecografie",
+        "description": "Stomatologie și diagnostic ecografic. Proceduri fără durere și mediu liniștit pentru animale."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Prețuri",
+    "title": "Lista de prețuri",
+    "subtitle": "Prețuri orientative pentru serviciile principale. Costul exact se confirmă la programare.",
+    "tableService": "Serviciu",
+    "tablePrice": "Preț",
+    "items": [
+      { "name": "Consultație primară (examen)", "price": "de la 300 lei" },
+      { "name": "Consultație de control", "price": "de la 200 lei" },
+      { "name": "Vaccinare (complex)", "price": "de la 350 lei" },
+      { "name": "Ecografie (un organ/zonă)", "price": "de la 250 lei" },
+      { "name": "Curățare dinți (fără anestezie)", "price": "de la 400 lei" },
+      { "name": "Stomatologie sub anestezie", "price": "de la 800 lei" },
+      { "name": "Castrare pisică", "price": "de la 600 lei" },
+      { "name": "Sterilizare pisică", "price": "de la 1000 lei" },
+      { "name": "Microcipare", "price": "de la 200 lei" },
+      { "name": "Analiză sânge (de bază)", "price": "de la 350 lei" }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Recenzii",
+    "title": "Ce spun clienții noștri",
+    "summary": "Scor mediu de {rating} din {max} pe baza a {count} recenzii verificate.",
+    "cards": [
+      {
+        "name": "Ana M.",
+        "role": "",
+        "text": "Echipa Nags-Vet i-a salvat viața pisicii mele. Profesioniști adevărați cu inimi mari!"
+      },
+      {
+        "name": "Serghei P.",
+        "role": "",
+        "text": "Serviciu excelent, personal prietenos și prețuri corecte. Recomand!"
+      },
+      {
+        "name": "Elena D.",
+        "role": "",
+        "text": "Impresionat de echipamentul modern și de atenția acordată câinelui meu."
+      },
+      {
+        "name": "Mihail S.",
+        "role": "",
+        "text": "Cea mai bună clinică veterinară din Chișinău. Medicii sunt foarte competenți și grijulii."
+      }
+    ],
+    "followUsOnFacebook": "Urmăriți-ne pe Facebook"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contact & programări",
+    "subtitle": "Suntem aici pentru tine și animalul tău de companie.",
+    "addressTitle": "Adresă",
+    "addressHint": "Ne găsești ușor în sectorul Ciocana, cu parcare în fața clinicii.",
+    "phoneTitle": "Telefon",
+    "phoneHint": "Sună-ne pentru programări rapide sau întrebări despre tratamente.",
+    "scheduleTitle": "Program",
+    "dayMon": "Lun",
+    "dayTue": "Mar",
+    "dayWed": "Mie",
+    "dayThu": "Joi",
+    "dayFri": "Vin",
+    "daySat": "Sâm",
+    "daySun": "Dum",
+    "scheduleToday": "Astăzi",
+    "scheduleClosed": "Închis",
+    "scheduleWeekdays": "Luni – Vineri",
+    "scheduleSat": "Sâmbătă",
+    "scheduleSun": "Duminică",
+    "directions": "Cum ajung",
+    "call": "Sună",
+    "facebook": "Facebook",
+    "openInMaps": "Deschide în Google Maps",
+    "mapTitle": "Hartă locație clinică veterinară Nags-Vet"
+  },
+  "footer": {
+    "addressLabel": "Adresă",
+    "phoneLabel": "Telefon",
+    "tagline": "Clinică veterinară în Chișinău",
+    "navTitle": "Navigare",
+    "contactTitle": "Contact",
+    "socialTitle": "Urmăriți-ne",
+    "copyright": "© {year} Clinica veterinara {name}. Toate drepturile rezervate.",
+    "poweredBy": "De"
+  },
+  "seo": {
+    "title": "Nags-Vet | Clinică veterinară modernă în Chișinău",
+    "description": "Clinică veterinară Nags-Vet în Chișinău – diagnostic modern, chirurgie, vaccinări și îngrijire completă pentru animalele tale de companie. Programează o vizită acum."
+  }
+}
+

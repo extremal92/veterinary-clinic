@@ -1,0 +1,218 @@
+{
+  "common": {
+    "callNow": "Call now",
+    "bookVisit": "Book a visit",
+    "learnMore": "Learn more"
+  },
+  "languages": {
+    "ro": "Romanian",
+    "ru": "Russian",
+    "en": "English",
+    "ua": "Ukrainian"
+  },
+  "header": {
+    "logoAlt": "Nags-Vet veterinary clinic logo",
+    "navServices": "Services",
+    "navAbout": "About",
+    "navDoctors": "Our team",
+    "navPricing": "Price list",
+    "navTestimonials": "Reviews",
+    "navContact": "Contact",
+    "callNow": "Call now",
+    "languageSwitcherAria": "Change site language",
+    "navigationAria": "Main navigation"
+  },
+  "hero": {
+    "title": "Modern veterinary care for your pets",
+    "subtitle": "Full-service veterinary clinic in Chișinău with a dedicated team and modern equipment for fast diagnosis and effective treatment.",
+    "badgeLabel": "Professional pet care",
+    "clinicLabel": "{name} veterinary clinic",
+    "servicesCount": "{count} services",
+    "primaryCta": "Book an appointment",
+    "secondaryCta": "Call the clinic",
+    "ratingLabel": "out of {max} stars",
+    "ratingBasedOn": "based on {count} reviews",
+    "ratingFacebook": "{count} reviews on Facebook",
+    "workingHoursTitle": "Today’s schedule",
+    "workingHoursClosed": "Closed today",
+    "workingHoursSeeAll": "View full schedule",
+    "imageAlt": "Veterinarian examining a dog in a modern clinic"
+  },
+  "services": {
+    "eyebrow": "Professional care",
+    "title": "Our services",
+    "subtitle": "Comprehensive care for your pets, from prevention to advanced treatments.",
+    "items": {
+      "dentistry": {
+        "title": "Dentistry",
+        "description": "Professional teeth cleaning, extractions and treatment for oral health."
+      },
+      "surgery": {
+        "title": "Surgery",
+        "description": "Surgical procedures with modern equipment and extensive experience."
+      },
+      "endoscopy": {
+        "title": "Endoscopy",
+        "description": "Minimally invasive diagnosis and treatment of complex internal conditions."
+      },
+      "therapy": {
+        "title": "Therapy",
+        "description": "Individual drug treatment and careful monitoring of progress."
+      },
+      "dermatology": {
+        "title": "Dermatology",
+        "description": "Diagnosis and treatment of skin conditions, allergies and dermatological issues."
+      },
+      "parasitology": {
+        "title": "Parasitology",
+        "description": "Prevention and treatment of internal and external parasites."
+      },
+      "microchipping": {
+        "title": "Microchipping",
+        "description": "Permanent and safe identification of your pet."
+      },
+      "vetPassports": {
+        "title": "Veterinary passports",
+        "description": "Documentation for international travel with pets."
+      },
+      "laboratory": {
+        "title": "Laboratory",
+        "description": "Blood, urine and other lab tests for accurate and fast diagnosis."
+      },
+      "inpatient": {
+        "title": "Inpatient care",
+        "description": "Round-the-clock care and monitoring for patients requiring intensive treatment."
+      }
+    },
+    "image1Alt": "Veterinary services",
+    "image2Alt": "Pet care"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "About Nags-Vet",
+    "subtitle": "Over 10 years of experience in veterinary medicine",
+    "body": "At Nags-Vet, we combine genuine care for animals with modern medical protocols. Our veterinary team covers all essential specialties to provide accurate diagnosis and effective treatment in a calm, pet-friendly environment.",
+    "mission": {
+      "title": "Our mission",
+      "description": "To provide every animal with safe, empathetic and accessible medical care, so that owners feel confident at every visit."
+    },
+    "values": {
+      "title": "Our values",
+      "description": "Respect, transparency and clear communication with pet owners, together with continuous professional development of our team."
+    },
+    "clientsBadge": "{count}+ happy clients",
+    "clientsBadgeLabel": "Happy clients",
+    "imageAlt": "Veterinary team smiling at the clinic reception"
+  },
+  "doctors": {
+    "eyebrow": "Our team",
+    "title": "Our veterinarians",
+    "subtitle": "Experienced professionals with a love for animals.",
+    "items": [
+      {
+        "name": "Alexander Kovalenko",
+        "role": "Chief veterinarian, surgeon",
+        "description": "Over 12 years of practice. Specialization: surgery, endoscopy. Regularly attends international training courses."
+      },
+      {
+        "name": "Maria Popova",
+        "role": "Veterinary therapist, dermatologist",
+        "description": "Diagnosis and treatment of internal diseases, skin and allergic conditions. Individual approach to every pet."
+      },
+      {
+        "name": "Dmitri Rusu",
+        "role": "Veterinarian: dentistry, ultrasound",
+        "description": "Dentistry and ultrasound diagnostics. Pain-free procedures and a calm environment for animals."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Prices",
+    "title": "Price list",
+    "subtitle": "Approximate prices for main services. Exact cost is confirmed at the appointment.",
+    "tableService": "Service",
+    "tablePrice": "Price",
+    "items": [
+      { "name": "Initial consultation (examination)", "price": "from 300 MDL" },
+      { "name": "Follow-up visit", "price": "from 200 MDL" },
+      { "name": "Vaccination (complex)", "price": "from 350 MDL" },
+      { "name": "Ultrasound (one organ/area)", "price": "from 250 MDL" },
+      { "name": "Teeth cleaning (no anesthesia)", "price": "from 400 MDL" },
+      { "name": "Dentistry under anesthesia", "price": "from 800 MDL" },
+      { "name": "Cat neutering", "price": "from 600 MDL" },
+      { "name": "Cat spaying", "price": "from 1000 MDL" },
+      { "name": "Microchipping", "price": "from 200 MDL" },
+      { "name": "Blood test (basic)", "price": "from 350 MDL" }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Reviews",
+    "title": "What our clients say",
+    "summary": "Average rating of {rating} out of {max} based on {count} verified reviews.",
+    "cards": [
+      {
+        "name": "Anna M.",
+        "role": "",
+        "text": "The Nags-Vet team saved my cat's life. True professionals with big hearts!"
+      },
+      {
+        "name": "Sergei P.",
+        "role": "",
+        "text": "Great service, friendly staff and fair prices. Highly recommend!"
+      },
+      {
+        "name": "Elena D.",
+        "role": "",
+        "text": "Impressed by the modern equipment and the attention given to my dog."
+      },
+      {
+        "name": "Mikhail S.",
+        "role": "",
+        "text": "The best veterinary clinic in Chișinău. The vets are very competent and caring."
+      }
+    ],
+    "followUsOnFacebook": "Follow us on Facebook"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contact & appointments",
+    "subtitle": "We’re here for you and your pet.",
+    "addressTitle": "Address",
+    "addressHint": "Easy to reach in the Ciocana district, with parking in front of the clinic.",
+    "phoneTitle": "Phone",
+    "phoneHint": "Call us for appointments or questions about treatments.",
+    "scheduleTitle": "Schedule",
+    "dayMon": "Mon",
+    "dayTue": "Tue",
+    "dayWed": "Wed",
+    "dayThu": "Thu",
+    "dayFri": "Fri",
+    "daySat": "Sat",
+    "daySun": "Sun",
+    "scheduleToday": "Today",
+    "scheduleClosed": "Closed",
+    "scheduleWeekdays": "Monday – Friday",
+    "scheduleSat": "Saturday",
+    "scheduleSun": "Sunday",
+    "directions": "Get directions",
+    "call": "Call",
+    "facebook": "Facebook",
+    "openInMaps": "Open in Google Maps",
+    "mapTitle": "Map to Nags-Vet veterinary clinic"
+  },
+  "footer": {
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "tagline": "Veterinary clinic in Chișinău",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "socialTitle": "Follow us",
+    "copyright": "© {year} Veterinary clinic {name}. All rights reserved.",
+    "poweredBy": "Powered by"
+  },
+  "seo": {
+    "title": "Nags-Vet | Modern veterinary clinic in Chișinău",
+    "description": "Nags-Vet veterinary clinic in Chișinău – modern diagnostics, surgery, vaccinations and full care for your pets. Book a visit today."
+  }
+}
+
