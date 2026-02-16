@@ -121,7 +121,7 @@ export default function Contact() {
 
         <div className="min-h-[400px] overflow-hidden rounded-2xl shadow-2xl lg:h-full">
           <iframe
-            title={t("mapTitle")}
+            title={t("mapTitle", { name: SITE.name })}
             src={SITE.mapEmbedUrl}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

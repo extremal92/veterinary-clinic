@@ -51,20 +51,20 @@ export async function generateMetadata(props: LayoutProps): Promise<Metadata> {
   };
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title: t("title", { name: SITE.name }),
+    description: t("description", { name: SITE.name }),
     metadataBase: new URL(baseUrl),
     alternates,
     openGraph: {
-      title: t("title"),
-      description: t("description"),
+      title: t("title", { name: SITE.name }),
+      description: t("description", { name: SITE.name }),
       type: "website",
       url: url.toString(),
       siteName: SITE.name,
       images: [
         {
           url: SITE.ogImage,
-          alt: t("title"),
+          alt: t("title", { name: SITE.name }),
         },
       ],
     },

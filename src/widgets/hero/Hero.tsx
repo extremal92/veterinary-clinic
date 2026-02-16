@@ -67,10 +67,7 @@ export default function Hero() {
               </span>
             </motion.div>
 
-            <motion.div
-              className="space-y-4"
-              variants={fadeSlide}
-            >
+            <motion.div className="space-y-4" variants={fadeSlide}>
               <h1
                 className="text-balance text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl"
                 // @ts-expect-error "anywhere" is valid CSS but not in React's WordWrap type
@@ -138,7 +135,9 @@ export default function Hero() {
                     </p>
                     <p>
                       <span className="font-medium">{tContact("daySun")}:</span>{" "}
-                      {tHero("workingHoursClosed")}
+                      {SITE.schedule.Sun === "closed"
+                        ? tHero("workingHoursClosed")
+                        : SITE.schedule.Sun}
                     </p>
                   </div>
                 </div>

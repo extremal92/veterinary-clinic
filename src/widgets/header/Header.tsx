@@ -18,7 +18,7 @@ export default function Header() {
           <div className="relative h-10 w-10 overflow-hidden rounded-xl">
             <Image
               src={SITE.logo}
-              alt={t("logoAlt")}
+              alt={t("logoAlt", { name: SITE.name })}
               fill
               sizes="40px"
               className="object-contain"

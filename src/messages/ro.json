@@ -11,7 +11,7 @@
     "ua": "Українська"
   },
   "header": {
-    "logoAlt": "Logo clinica veterinară Nags-Vet",
+    "logoAlt": "Logo clinica veterinară {name}",
     "navServices": "Servicii",
     "navAbout": "Despre noi",
     "navDoctors": "Medici",
@@ -34,7 +34,7 @@
     "ratingBasedOn": "bazat pe {count} recenzii",
     "ratingFacebook": "{count} recenzii pe Facebook",
     "workingHoursTitle": "Program astăzi",
-    "workingHoursClosed": "Închis astăzi",
+    "workingHoursClosed": "Închis",
     "workingHoursSeeAll": "Vezi tot programul",
     "imageAlt": "Medic veterinar care examinează un câine într-o clinică modernă"
   },
@@ -89,9 +89,9 @@
   },
   "about": {
     "eyebrow": "Despre noi",
-    "title": "Despre Nags-Vet",
+    "title": "Despre {name}",
     "subtitle": "Peste 10 ani de experiență în medicina veterinară",
-    "body": "La Nags-Vet îmbinăm grija autentică pentru animale cu protocoale medicale moderne. Echipa noastră de medici veterinari acoperă toate specializările esențiale pentru a oferi un diagnostic corect și un tratament eficient, într-un mediu calm și prietenos pentru animale.",
+    "body": "La {name} îmbinăm grija autentică pentru animale cu protocoale medicale moderne. Echipa noastră de medici veterinari acoperă toate specializările esențiale pentru a oferi un diagnostic corect și un tratament eficient, într-un mediu calm și prietenos pentru animale.",
     "mission": {
       "title": "Misiunea noastră",
       "description": "Să oferim fiecărui animal o îngrijire medicală sigură, empatică și accesibilă, astfel încât stăpânii să se simtă liniștiți la fiecare vizită."
@@ -153,7 +153,7 @@
       {
         "name": "Ana M.",
         "role": "",
-        "text": "Echipa Nags-Vet i-a salvat viața pisicii mele. Profesioniști adevărați cu inimi mari!"
+        "text": "Echipa i-a salvat viața pisicii mele. Profesioniști adevărați cu inimi mari!"
       },
       {
         "name": "Serghei P.",
@@ -198,7 +198,7 @@
     "call": "Sună",
     "facebook": "Facebook",
     "openInMaps": "Deschide în Google Maps",
-    "mapTitle": "Hartă locație clinică veterinară Nags-Vet"
+    "mapTitle": "Hartă locație clinică veterinară {name}"
   },
   "footer": {
     "addressLabel": "Adresă",
@@ -211,8 +211,7 @@
     "poweredBy": "De"
   },
   "seo": {
-    "title": "Nags-Vet | Clinică veterinară modernă în Chișinău",
-    "description": "Clinică veterinară Nags-Vet în Chișinău – diagnostic modern, chirurgie, vaccinări și îngrijire completă pentru animalele tale de companie. Programează o vizită acum."
+    "title": "{name} | Clinică veterinară modernă în Chișinău",
+    "description": "Clinică veterinară {name} în Chișinău – diagnostic modern, chirurgie, vaccinări și îngrijire completă pentru animalele tale de companie. Programează o vizită acum."
   }
 }
-

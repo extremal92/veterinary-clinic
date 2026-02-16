@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Section from "@/shared/ui/Section";
 import { Heart, Shield, Award } from "lucide-react";
+import { SITE } from "@/config/site";
 
 export default function About() {
   const t = useTranslations("about");
@@ -30,10 +31,12 @@ export default function About() {
             {t("eyebrow")}
           </span>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">
-            {t("title")}
+            {t("title", { name: SITE.name })}
           </h2>
           <p className="text-xl font-medium text-blue-600">{t("subtitle")}</p>
-          <p className="text-lg leading-relaxed text-gray-600">{t("body")}</p>
+          <p className="text-lg leading-relaxed text-gray-600">
+            {t("body", { name: SITE.name })}
+          </p>
 
           <div className="grid gap-6 sm:grid-cols-2">
             <div className="rounded-2xl border border-blue-100 bg-white p-6 shadow-md">
@@ -44,7 +47,7 @@ export default function About() {
                 {t("mission.title")}
               </h3>
               <p className="text-sm text-gray-600">
-                {t("mission.description")}
+                {t("mission.description", { name: SITE.name })}
               </p>
             </div>
             <div className="rounded-2xl border border-blue-100 bg-white p-6 shadow-md">
@@ -71,7 +74,9 @@ export default function About() {
               />
             </div>
             <div className="absolute bottom-0 right-0 md:-bottom-6 md:-right-6 md:p-6 p-4 rounded-2xl bg-gradient-to-r from-blue-600 to-cyan-600 text-white shadow-xl">
-              <div className="text-xl md:text-3xl font-bold">278+</div>
+              <div className="text-xl md:text-3xl font-bold">
+                {SITE.reviews}+
+              </div>
               <div className="text-blue-100">{t("clientsBadgeLabel")}</div>
             </div>
           </div>
