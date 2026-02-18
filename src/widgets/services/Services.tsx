@@ -8,7 +8,7 @@ import SectionHeader from "@/shared/ui/SectionHeader";
 import {
   Smile,
   Scissors,
-  Eye,
+  Slice,
   Heart,
   Sparkles,
   Bug,
@@ -27,12 +27,12 @@ const SERVICE_CONFIG: {
   { key: "dentistry", Icon: Smile, iconClassName: "bg-blue-100 text-blue-600" },
   {
     key: "surgery",
-    Icon: Scissors,
+    Icon: Slice,
     iconClassName: "bg-rose-100 text-rose-600",
   },
   {
     key: "endoscopy",
-    Icon: Eye,
+    Icon: Scissors,
     iconClassName: "bg-violet-100 text-violet-600",
   },
   { key: "therapy", Icon: Heart, iconClassName: "bg-pink-100 text-pink-600" },
