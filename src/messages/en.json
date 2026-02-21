@@ -52,6 +52,10 @@
         "description": "Surgical procedures with modern equipment and extensive experience."
       },
       "endoscopy": {
+        "title": "Endoscopy",
+        "description": "Minimally invasive diagnosis and treatment of complex internal conditions."
+      },
+      "grooming": {
         "title": "Pet grooming",
         "description": "Modeling and hygiene cuts, professional bathing with cosmetic care, nail and ear care."
       },

@@ -52,6 +52,10 @@
         "description": "Intervenții chirurgicale cu echipament modern și experiență vastă."
       },
       "endoscopy": {
+        "title": "Endoscopie",
+        "description": "Diagnostic și tratament minim invaziv pentru afecțiuni interne complexe."
+      },
+      "grooming": {
         "title": "Curățare și modelare",
         "description": "Modelare și curățare profesională, baie cu îngrijire cosmetică, îngrijirea picioarelor și urechilor."
       },
