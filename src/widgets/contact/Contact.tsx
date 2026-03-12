@@ -54,7 +54,7 @@ export default function Contact() {
                 {t("phoneTitle")}
               </h3>
               <a
-                href={`tel:${SITE.phone}`}
+                href={`tel:${SITE.phone.replace(/\s+/g, "")}`}
                 className="text-2xl font-bold transition-colors hover:text-blue-200"
               >
                 {SITE.phone}

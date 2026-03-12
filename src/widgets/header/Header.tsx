@@ -52,7 +52,7 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <LanguageSwitcher />
           <Button
-            href={`tel:${SITE.phone}`}
+            href={`tel:${SITE.phone.replace(/\s+/g, "")}`}
             className="hidden sm:inline-flex justify-center items-center gap-2 w-fit lg:min-w-[150px]"
           >
             <Phone className="h-4 w-4" />

@@ -60,7 +60,7 @@ export default function Footer() {
                 <span>{SITE.address}</span>
               </div>
               <a
-                href={`tel:${SITE.phone}`}
+                href={`tel:${SITE.phone.replace(/\s+/g, "")}`}
                 className="flex items-center gap-3 text-sm text-blue-400 transition-colors hover:text-blue-300"
               >
                 <Phone className="h-4 w-4 shrink-0" aria-hidden="true" />

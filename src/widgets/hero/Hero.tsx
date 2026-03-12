@@ -107,7 +107,10 @@ export default function Hero() {
                 <PawPrint className="mr-2 h-4 w-4" />
                 {tHero("primaryCta")}
               </Button>
-              <Button variant="secondary" href={`tel:${SITE.phone}`}>
+              <Button
+                variant="secondary"
+                href={`tel:${SITE.phone.replace(/\s+/g, "")}`}
+              >
                 <Phone className="mr-2 h-4 w-4" />
                 {tHero("secondaryCta")}
               </Button>
