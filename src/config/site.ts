@@ -35,8 +35,8 @@ const GEO = {
 export const SITE: SiteConfig = {
   name: "ANIMALIA VET",
 
-  logo: "/images/animalia-vet-logo.png",
-  ogImage: "/images/animalia-og-image.png",
+  logo: "/images/animalia-vet-logo.jpg",
+  ogImage: "/images/animalia-vet-og.jpg",
 
   phone: "+373 791 02 028",
 
