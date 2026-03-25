@@ -74,24 +74,28 @@ export default function Footer() {
               {t("socialTitle")}
             </h3>
             <div className="flex gap-3">
-              <a
-                href={SITE.social.fb}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-gray-800 p-2.5 text-gray-400 transition-colors hover:bg-gray-700 hover:text-white"
-                aria-label="Facebook"
-              >
-                <Facebook className="h-5 w-5" aria-hidden="true" />
-              </a>
-              <a
-                href={SITE.social.insta}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-gray-800 p-2.5 text-gray-400 transition-colors hover:bg-gray-700 hover:text-white"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-5 w-5" aria-hidden="true" />
-              </a>
+              {SITE.social.fb && (
+                <a
+                  href={SITE.social.fb}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full bg-gray-800 p-2.5 text-gray-400 transition-colors hover:bg-gray-700 hover:text-white"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-5 w-5" aria-hidden="true" />
+                </a>
+              )}
+              {SITE.social.insta && (
+                <a
+                  href={SITE.social.insta}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full bg-gray-800 p-2.5 text-gray-400 transition-colors hover:bg-gray-700 hover:text-white"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="h-5 w-5" aria-hidden="true" />
+                </a>
+              )}
             </div>
           </div>
         </div>
